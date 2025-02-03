@@ -3,7 +3,7 @@ layout: layout.liquid
 title: About
 ---
 
-# **A Deep Space Exploration**
+# A Deep Space **Exploration**
 <img class="mission-badge" alt="pine" src="/images/saturn-svgrepo-com.svg" width="50" />
 
 <div class="aboutText">
