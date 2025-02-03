@@ -54,6 +54,12 @@ h1 strong {
     -webkit-text-fill-color: transparent;
 }
 
+h2 {
+    font-size: 2.1em;
+    letter-spacing: -2px;
+    margin-bottom: 0.5em;
+}
+
 .log-entry {
     max-width: 800px;
     margin: 2em auto;
@@ -104,12 +110,4 @@ img.mission-badge {
     color: #EAE8FF;
     font-size: 1.1em;
     line-height: 1.6;
-}
-
-.highlightText {
-    font-weight: bold;
-    color: #9E7B9B;
-    background: rgba(27, 152, 224, 0.2);
-    padding: 4px 8px;
-    border-radius: 5px;
 }
