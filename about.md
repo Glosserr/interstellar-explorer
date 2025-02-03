@@ -3,5 +3,5 @@ layout: layout.liquid
 title: About
 ---
 
-# About the 11ty **Boilerplate**
-<img class="about" alt="pine" src="/images/pine.png" width="50" />
+# **InterStellar Explorer**
+<img class="about" alt="pine" src="/images/saturn-svgrepo-com.svg" width="50" />
