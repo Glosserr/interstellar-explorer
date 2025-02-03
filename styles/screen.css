@@ -59,7 +59,6 @@ h1 strong {
     margin: 2em auto;
     padding: 2em;
     text-align: left;
-    background: #283044;
     border-radius: 15px;
     border: 1px solid rgba(27, 152, 224, 0.5);
     box-shadow: 0 0 15px rgba(27, 152, 224, 0.2);
@@ -105,4 +104,13 @@ img.mission-badge {
     color: #EAE8FF;
     font-size: 1.1em;
     line-height: 1.6;
+}
+
+.highlightText {
+    font-weight: bold;
+    color: #9E7B9B;
+    background: rgba(27, 152, 224, 0.2);
+    padding: 4px 8px;
+    border-radius: 5px;
+    display: inline-block;
 }
