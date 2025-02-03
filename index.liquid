@@ -1,7 +1,21 @@
 ---
 layout: layout.liquid
-title: 11ty Boilerplate
+title: Deep Space Expedition Logs
 ---
 
-<h1>Yet Another 11ty <strong>Boilerplate</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+<h1>Deep Space <strong>Expedition</strong></h1>
+<img class="mission-badge" src="/images/mission-badge.png" alt="Mission Badge" />
+
+<div class="mission-status">
+  <p>Current Location: NGC-7293 Sector</p>
+  <p>Mission Day: 180</p>
+</div>
+
+<section class="recent-logs">
+  <h2>Recent Log Entries</h2>
+  {% for post in collections.posts reversed %}
+    {% if forloop.index <= 2 %}
+      {% logPreview post %}
+    {% endif %}
+  {% endfor %}
+</section>

@@ -1,16 +1,19 @@
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Space Mono', Helvetica, sans-serif;
     color: #EAE8FF;
     background: #2D3142;
     padding: 0 40px;
     text-align: center;
+    background-image: radial-gradient(circle at 50% 50%, #212431 0%, #2D3142 100%);
 }
 
 nav {
     margin: 40px auto 0 auto;
-    width: 250px;
+    width: 350px;
     border-radius: 50px;
     background: #212431;
+    border: 1px solid rgba(34,193,195,0.3);
+    box-shadow: 0 0 20px rgba(34,193,195,0.2);
 }
 
 nav ul {
@@ -31,11 +34,17 @@ nav ul li a {
     color: #EAE8FF;
     text-decoration: none;
     font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: rgba(34,193,195,1);
 }
 
 h1 {
-    font-size: 8em;
+    font-size: 4em;
     letter-spacing: -2px;
+    margin-bottom: 0.5em;
 }
 
 h1 strong {
@@ -45,6 +54,39 @@ h1 strong {
     -webkit-text-fill-color: transparent;
 }
 
-img.about {
-    opacity: 0.5;
+.log-entry {
+    max-width: 800px;
+    margin: 2em auto;
+    text-align: left;
+    padding: 2em;
+    background: rgba(33, 36, 49, 0.7);
+    border-radius: 15px;
+    border: 1px solid rgba(34,193,195,0.2);
+}
+
+.log-date {
+    color: rgba(34,193,195,1);
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
+
+.log-preview {
+    max-width: 600px;
+    margin: 2em auto;
+    text-align: left;
+}
+
+footer {
+    margin-top: 4em;
+    padding: 2em;
+    font-size: 0.8em;
+    color: rgba(234,232,255,0.6);
+}
+
+img.mission-badge {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 2em auto;
+    border: 2px solid rgba(34,193,195,0.5);
 }

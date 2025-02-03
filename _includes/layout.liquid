@@ -1,5 +1,5 @@
 ---
-title: 11ty Boilerplate
+title: Stellar Logs
 ---
 
 <!DOCTYPE html>
@@ -7,16 +7,23 @@ title: 11ty Boilerplate
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }}</title>
+  <title>{{ title }} | Stellar Logs</title>
   <link rel="stylesheet" href="/styles/screen.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav>
     <ul>
-      <li><a href="/" title="Go home">Home</a></li>
-      <li><a href="/about/" title="About the boilerplate">About</a></li>
+      <li><a href="/" title="Mission Control">Home</a></li>
+      <li><a href="/posts" title="Log Entries">Logs</a></li>
+      <li><a href="/about" title="About the Mission">About</a></li>
     </ul>
   </nav>
+  <main>
     {{ content }}
+  </main>
+  <footer>
+    <p>Transmission from Deep Space • Stellar Date: 2025.033</p>
+  </footer>
 </body>
 </html>
