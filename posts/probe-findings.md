@@ -1,7 +1,7 @@
 ---
 layout: layout.liquid
 title: Probe Analysis Results
-date: 2025-02-02
+date: 2525-02-02
 excerpt: Initial probe data reveals surprising molecular structures in the nebula's outer ring.
 ---
 

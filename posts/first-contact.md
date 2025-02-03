@@ -1,7 +1,7 @@
 ---
 layout: layout.liquid
 title: First Contact with NGC-7293
-date: 2025-02-01
+date: 2525-02-01
 excerpt: Initial observations of the mysterious Helix Nebula reveal unexpected energy signatures.
 ---
 
