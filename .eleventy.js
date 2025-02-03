@@ -1,5 +1,4 @@
 module.exports = function(eleventyConfig) {
-  // Existing config
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("styles");
 
@@ -19,4 +18,13 @@ module.exports = function(eleventyConfig) {
       </article>
     `;
   });
+
+  // Configure input directory for posts
+  return {
+    dir: {
+      input: ".",
+      includes: "_includes",
+      output: "_site"
+    }
+  };
 };
